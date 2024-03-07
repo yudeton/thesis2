@@ -78,6 +78,9 @@ roslaunch teco_config demo_pliz.launch
 # 執行DRL訓練
 ```bash
 roslaunch dynamics dynamics_DRL.launch
+
+roslaunch dynamics dynamics_general_robot_for_server.launch
+
 # tensorboard 可視化
 tensorboard --logdir {log}
 ```
